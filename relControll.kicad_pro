@@ -657,7 +657,7 @@
         "uuid": "0e54fdc9-d9ef-422b-a99d-a03b9477ed12"
       }
     ],
-    "used_designators": "H1,#SYM1,N1",
+    "used_designators": "",
     "variants": [
       {
         "name": "dip"
