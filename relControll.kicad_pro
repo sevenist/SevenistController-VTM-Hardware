@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.799996,
-          "height": 3.0,
-          "width": 2.6
+          "drill": 2.7,
+          "height": 4.5,
+          "width": 4.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -65,7 +65,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -657,7 +657,7 @@
         "uuid": "0e54fdc9-d9ef-422b-a99d-a03b9477ed12"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H1,#SYM1,N1",
     "variants": [
       {
         "name": "dip"
