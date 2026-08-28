@@ -14997,17 +14997,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 22.86 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "relControll"
 				(path "/0e54fdc9-d9ef-422b-a99d-a03b9477ed12"
