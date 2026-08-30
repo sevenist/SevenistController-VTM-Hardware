@@ -195,7 +195,12 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
         0.5,
+        0.7,
         1.0,
         1.5,
         2.0
@@ -241,7 +246,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -497,7 +502,7 @@
     ]
   },
   "meta": {
-    "filename": "relControll.kicad_pro",
+    "filename": "relControll_v1.1_fix.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -652,13 +657,16 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "relControll.kicad_sch",
-        "name": "Root",
+        "filename": "relControll_v1.1_fix.kicad_sch",
+        "name": "relControll_v1.1_fix",
         "uuid": "0e54fdc9-d9ef-422b-a99d-a03b9477ed12"
       }
     ],
     "used_designators": "",
     "variants": [
+      {
+        "name": "16ch mux"
+      },
       {
         "name": "dip"
       }
@@ -667,7 +675,19 @@
   "sheets": [
     [
       "0e54fdc9-d9ef-422b-a99d-a03b9477ed12",
-      "Root"
+      "relControll_v1.1_fix"
+    ],
+    [
+      "76de3551-abec-4019-99c2-9c3fb735d1e0",
+      "Control Knobs"
+    ],
+    [
+      "f816cc41-f4b0-4a53-8c71-4e5988e6f4d5",
+      "leds"
+    ],
+    [
+      "0f5b045b-732e-4901-a77c-8dc78f40f9d4",
+      "MIDI IO"
     ]
   ],
   "text_variables": {},
